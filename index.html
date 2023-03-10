@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script defer src="./js/script.js"></script>
+    <title>Tienda</title>
+</head>
+<body>
+    <h1>Carrito de Compras</h1>
+        
+    <div id="productos">
+        <h2>Productos Disponibles</h2>
+        <ul>
+            <li>Camisa <button onclick="agregarAlCarrito('Camisa', 1)">Agregar al Carrito</button></li>
+            <li>Pantalón <button onclick="agregarAlCarrito('Pantalón', 1)">Agregar al Carrito</button></li>
+            <li>Zapatillas <button onclick="agregarAlCarrito('Zapatos', 1)">Agregar al Carrito</button></li>
+        </ul>
+    </div>
+
+    <div id="carrito">
+        <h2>Carrito de Compras</h2>
+        <ul id="items"></ul>
+        <p>Total: <span id="total"></span>$</p>
+    </div>
+
+</body>
+</html>
